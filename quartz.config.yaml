@@ -2,7 +2,7 @@
 configuration:
   pageTitle: 微积分笔记
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: plausible
