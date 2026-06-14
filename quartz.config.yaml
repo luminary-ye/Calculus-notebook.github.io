@@ -50,6 +50,9 @@ plugins:
         - git
         - filesystem
     order: 10
+  - source: ./plugins/tikzjax-codeblocks
+    enabled: true
+    order: 15
   - source: github:quartz-community/syntax-highlighting
     enabled: true
     options:

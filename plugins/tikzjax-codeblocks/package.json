@@ -1,0 +1,14 @@
+{
+  "name": "tikzjax-codeblocks",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "quartz": {
+    "name": "tikzjax-codeblocks",
+    "displayName": "TikZJax Code Blocks",
+    "description": "Convert fenced TikZ code blocks into TikZJax script tags before Markdown rendering.",
+    "version": "1.0.0",
+    "category": "transformer",
+    "defaultOrder": 15
+  }
+}
