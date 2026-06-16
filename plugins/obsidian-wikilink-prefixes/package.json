@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-wikilink-prefixes",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "quartz": {
+    "name": "obsidian-wikilink-prefixes",
+    "displayName": "Obsidian Wikilink Prefixes",
+    "description": "Normalize Obsidian vault-relative wikilinks to Quartz content-root-relative links.",
+    "version": "1.0.0",
+    "category": "transformer",
+    "defaultOrder": 16
+  }
+}
