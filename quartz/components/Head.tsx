@@ -26,6 +26,7 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const localKatexStylesheet = joinSegments(baseDir, "static/katex/katex.min.css")
 
     // Url of current page
     const socialUrl =
@@ -98,6 +99,7 @@ export default (() => {
         <meta name="generator" content="Quartz" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
+        <link rel="stylesheet" type="text/css" href={localKatexStylesheet} data-persist="true" />
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
