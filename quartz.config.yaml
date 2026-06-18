@@ -56,6 +56,9 @@ plugins:
   - source: ./plugins/obsidian-wikilink-prefixes
     enabled: true
     order: 16
+  - source: ./plugins/math-inequality-normalizer
+    enabled: true
+    order: 17
   - source: github:quartz-community/syntax-highlighting
     enabled: true
     options:

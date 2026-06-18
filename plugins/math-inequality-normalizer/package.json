@@ -1,0 +1,14 @@
+{
+  "name": "math-inequality-normalizer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "quartz": {
+    "name": "math-inequality-normalizer",
+    "displayName": "Math Inequality Normalizer",
+    "description": "Normalize raw inequality symbols inside Markdown math before Quartz renders KaTeX.",
+    "version": "1.0.0",
+    "category": "transformer",
+    "defaultOrder": 17
+  }
+}
